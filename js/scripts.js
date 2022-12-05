@@ -137,11 +137,11 @@ window.onload = function(){
     renderCarrito()
   }
 }
-// Pop up de los modal´s
+// modales
 let modal_login = document.getElementById('id01');
 let modal_registro = document.getElementById('id02');
 
-// si se clickea fuera del modal se cierra.
+
 window.onclick = function(event) {
     if (event.target == modal_login) {
       modal_login.style.display = "none";

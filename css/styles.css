@@ -238,7 +238,7 @@ button:hover {
 
 /* The Modal (background) */
 .modal_registro {
-  display: flex; /* Hidden by default */
+  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 101; /* Sit on top */
   left: 0;
