@@ -60,11 +60,11 @@ function renderCarrito(){
     <th scope="row"></th>
             <td class="table__productos">
               <img src=${item.img}  alt="">
-              <h5 class="title fs-2">${item.title}</h5>
+              <h5 class="title fs-3">${item.title}</h5>
             </td>
-            <td class="table__price fs-1"><p>${item.precio}</p></td>
+            <td class="table__price fs-3"><p>${item.precio}</p></td>
             <td class="table__cantidad">
-              <input type="number" min="1" value=${item.cantidad} class="input__elemento fs-3">
+              <input type="number" min="1" value=${item.cantidad} class="input__elemento fs-5">
               <button class="delete btn btn-danger">Eliminar Producto</button>
             </td>
     
@@ -137,7 +137,7 @@ window.onload = function(){
     renderCarrito()
   }
 }
-// modales
+
 let modal_login = document.getElementById('id01');
 let modal_registro = document.getElementById('id02');
 
