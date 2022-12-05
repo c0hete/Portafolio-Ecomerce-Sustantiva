@@ -60,14 +60,14 @@ function renderCarrito(){
     <th scope="row"></th>
             <td class="table__productos">
               <img src=${item.img}  alt="">
-              <h5 class="title fs-3">${item.title}</h5>
+              <h6 class="title">${item.title}</h6>
             </td>
-            <td class="table__price fs-3"><p>${item.precio}</p></td>
+            <td class="table__price"><p>${item.precio}</p></td>
             <td class="table__cantidad">
-              <input type="number" min="1" value=${item.cantidad} class="input__elemento fs-5">
-              <button class="delete btn btn-danger">Eliminar Producto</button>
+             <input type="number" min="1" value=${item.cantidad} class="input__elemento">
+             <button class="delete btn btn-danger">x</button>
             </td>
-    
+            
     `
     tr.innerHTML = Content;
     tbody.append(tr)
@@ -123,7 +123,6 @@ function sumaCantidad(e){
       CarritoTotal()
     }
   })
-  console.log(carrito)
 }
 
 function addLocalStorage(){
