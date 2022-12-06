@@ -139,6 +139,7 @@ window.onload = function(){
 
 let modal_login = document.getElementById('id01');
 let modal_registro = document.getElementById('id02');
+let modal_contactanos = document.getElementById('id03');
 
 
 window.onclick = function(event) {
@@ -146,6 +147,8 @@ window.onclick = function(event) {
       modal_login.style.display = "none";
     }else if (event.target == modal_registro) {
       modal_registro.style.display = "none";
+    }else if (event.target == modal_contactanos) {
+      modal_contactanos.style.display = "none";
     }
     
 }

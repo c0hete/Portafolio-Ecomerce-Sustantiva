@@ -1,4 +1,4 @@
-<!DOCTYPE html>titlee="
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -189,7 +189,7 @@
 
       <h2 class="fw-normal text-light">Contactanos</h2>
       <p class="text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptas neque, quae alias voluptatem repudiandae aut blanditiis mollitia provident laudantium obcaecati reprehenderit laborum nostrum maiores voluptatum illum illo? Voluptas, corporis. </p>
-      <p><a class="btn btn-primary" href="#">Queremos saber de ti &raquo;</a></p>
+      <p><a class="btn btn-primary" onclick="document.getElementById('id03').style.display='block'" href="#">Contactanos &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -241,7 +241,6 @@
   </div>
 
   <hr class="featurette-divider">
-
   <div class="row featurette">
     <div class="col-md-7">
       <h2 class="featurette-heading fw-normal lh-1 text-light">Dale un Jaquemate <span class="text-muted">Al aburrimiento.</span></h2>
@@ -646,7 +645,6 @@
       </div>
           <!-- login -->
     <div
-    <div
     class="tab-pane fade"
     id="pills-registro"
     role="tabpanel"
@@ -714,7 +712,39 @@
     </div>
   </form>
 </div>
-    <!-- registro fin -->
+    <!-- modal registro fin -->
+
+    <!-- modal contactanos Inicio -->
+    <div id="id03" class="modal_contactanos">
+   
+      <span onclick="document.getElementById('id03').style.display='none'" class="close-contactanos" title="Close Modal">&times;</span>
+      <form class="modal-content-contactanos animate bg-dark text-primary position-sticky" action="/action_page.php">
+        <img class="rocket__logo" src="img/logo-pequeño.png">
+        <div class="container_contactanos">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        
+        </div>
+      </form>
+    </div>
+    <!-- modal contactanos Fin -->
 
     </div>  
     <!-- fin contenedor home productos carrito -->
