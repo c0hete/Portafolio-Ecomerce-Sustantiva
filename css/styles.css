@@ -44,8 +44,6 @@ header, .alert{
 .hide, .remove{
     display: none;
 }
-
-
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
@@ -53,13 +51,11 @@ header, .alert{
   border-width: 1px 0;
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
-
 .b-example-vr {
   flex-shrink: 0;
   width: 1.5rem;
   height: 100vh;
 }
-
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
@@ -72,7 +68,6 @@ header, .alert{
  border-radius: 100%;
  height: 140px;
  margin-top: 20px;
-
  }
 /* Modal Ingreso */
 /* Full-width input fields */
@@ -84,7 +79,6 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
 /* Set a style for all buttons */
 .boton-login {
   color: white;
@@ -94,34 +88,27 @@ input[type=text], input[type=password] {
   cursor: pointer;
   width: 100%;
 }
-
 button:hover {
   opacity: 0.8;
 }
-
 /* Extra styles for the cancel button */
 .cancelbtn_login {
   width: auto;
   padding: 10px 18px;
-
 }
-
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
   position: relative;
 }
-
 .container {
   padding: 10px;
 }
-
 span.psw {
   float: right;
   padding-top: 16px;
 }
-
 /* The Modal (background) */
 .modal_login {
   display: none; /* Hidden by default */
@@ -135,9 +122,7 @@ span.psw {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 60px;
   z-index: 101;
-
 }
-
 /* Modal Content/Box */
 .modal-content-login {
   background-color: #fefefe;
@@ -146,7 +131,6 @@ span.psw {
   width: 30%;
   height: auto; /* Could be more or less, depending on screen size */
 }
-
 /* The Close Button (x) */
 .close {
   position: absolute;
@@ -155,13 +139,11 @@ span.psw {
   font-size: 35px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: red;
   cursor: pointer;
 }
-
 /* modal registro */
 input[type=text], input[type=password] {
   width: 100%;
@@ -171,22 +153,17 @@ input[type=text], input[type=password] {
   border: none;
   background: #f1f1f1;
 }
-
 /* Add a background color when the inputs get focus */
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
-
 button:hover {
   opacity:1;
 }
-
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
-  
 }
 .signupbtn {
   float:right;
@@ -198,7 +175,6 @@ button:hover {
   float: left;
   width: 50%;
 }
-
 /* The Modal (background) */
 .modal_registro {
   display: none; /* Hidden by default */
@@ -212,9 +188,7 @@ button:hover {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 50px;
-  
 }
-
 /* Modal Content/Box */
 .modal-content-registro {
   background-color: #fefefe;
@@ -238,7 +212,6 @@ hr {
   color: #f1f1f1;
   z-index: 102;
 }
-
 .close:hover,
 .close:focus {
   color: #f44336;

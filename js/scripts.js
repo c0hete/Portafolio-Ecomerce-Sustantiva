@@ -124,7 +124,7 @@ function sumaCantidad(e){
     }
   })
 }
-
+// Local Storage--------------------------------------------------
 function addLocalStorage(){
   localStorage.setItem('carrito', JSON.stringify(carrito))
 }
@@ -136,7 +136,7 @@ window.onload = function(){
     renderCarrito()
   }
 }
-
+// Modales--------------------------------------------------------
 let modal_login = document.getElementById('id01');
 let modal_registro = document.getElementById('id02');
 let modal_contactanos = document.getElementById('id03');
