@@ -16,7 +16,7 @@ REPOSITORIO.
 https://github.com/c0hete/Portafolio-Ecomerce-Sustantiva.git
 
 GIT PAGE.
-https://c0hete.github.io/Portafolio2/
+https://c0hete.github.io/Portafolio-Ecomerce-Sustantiva/
 
 
 
