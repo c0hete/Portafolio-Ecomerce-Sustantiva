@@ -1,16 +1,24 @@
 # Portafolio-Ecomerce-Sustantiva
 
-Trabajo en proceso de una pagina Ecomerce en la cual se van aplicando las tecnologicas y conocimentos adquiridos en el curso entregado por OTEC SUSTANTIVA.
+Carrito de compras en JavaScript
 
-Features:
-1.)Front end maquetado.
+Este es un ejemplo de un carrito de compras en JavaScript, que utiliza el Local Storage para almacenar la información del carrito entre sesiones.
+Funcionamiento
 
-2.)Registro/Login de usuarios maquetado.
+Al hacer clic en el botón "Agregar al carrito" en uno de los productos, se añade una fila correspondiente en la tabla del carrito. Desde allí, se puede modificar la cantidad de cada producto, eliminar un producto del carrito, o vaciar todo el carrito.
 
-3.)Carrito de compra funcional usando javascript y interactuando con el DOM:
-*Permite agregar productos
-*Permite Eliminar productos
-*Totales de compra se modifican con la adicion/resta de produtos.
+El total del carrito se calcula automáticamente en base a los precios y cantidades de los productos.
+Tecnologías utilizadas
+
+    HTML5
+    CSS3
+    JavaScript
+
+Cómo ejecutar el código
+
+Para ejecutar el código, simplemente abre el archivo index.html en tu navegador web. El archivo script.js contiene el código JavaScript que se utiliza en la página.
+
+Este código fue escrito por José Alvarado como un ejemplo de un carrito de compras en JavaScript.
 
 REPOSITORIO.
 https://github.com/c0hete/Portafolio-Ecomerce-Sustantiva.git
